@@ -47,5 +47,5 @@ for root, dirs, files in os.walk(pathCSV):
 
 endDate = datetime.now()
 
-print("Data final da rotina CSV: ", endDate.strftime("%d/%m/%Y %H:%M"))
+print("Data final da rotina de download: ", endDate.strftime("%d/%m/%Y %H:%M"))
 print("#######################################################")
